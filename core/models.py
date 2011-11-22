@@ -26,10 +26,10 @@ class Topic(models.Model):
 class Video(models.Model):
     source_url = models.URLField()
     topic = models.ForeignKey('Topic')
-    practice_url = models.URLField(blank=True)
     download_url = models.URLField(blank=True)
     license = models.ForeignKey('License')
     next_video = models.OneToOneField('self', blank=True, null=True)
+    # practice_url = models.URLField(blank=True)
     # content_time = models.TimeField() #need a better name
     # series of videos [?] self
 
