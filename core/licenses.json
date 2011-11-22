@@ -1,0 +1,15 @@
+[{
+    "fields": {
+        "license": "CC BY-SA",
+        "text_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "model": "core.license",
+    "pk": 1
+}, {
+    "fields": {
+        "license": "CC BY-NC-SA",
+        "text_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    "model": "core.license",
+    "pk": 2
+}]
