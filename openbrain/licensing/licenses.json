@@ -1,15 +1,57 @@
 [{
     "fields": {
+        "license": "CC BY",
+        "text_url": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    "model": "licensing.license",
+    "pk": 1
+}, {
+    "fields": {
+        "license": "CC BY-ND",
+        "text_url": "http://creativecommons.org/licenses/by-nd/3.0/"
+    },
+    "model": "licensing.license",
+    "pk": 2
+}, {
+    "fields": {
         "license": "CC BY-SA",
         "text_url": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "model": "core.license",
-    "pk": 1
+    "model": "licensing.license",
+    "pk": 3
+}, {
+    "fields": {
+        "license": "CC BY-NC",
+        "text_url": "http://creativecommons.org/licenses/by-nc/3.0/"
+    },
+    "model": "licensing.license",
+    "pk": 4
+}, {
+    "fields": {
+        "license": "CC BY-NC-ND",
+        "text_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+    },
+    "model": "licensing.license",
+    "pk": 5
 }, {
     "fields": {
         "license": "CC BY-NC-SA",
         "text_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
     },
-    "model": "core.license",
-    "pk": 2
+    "model": "licensing.license",
+    "pk": 6
+}, {
+    "fields": {
+        "license": "CC0",
+        "text_url": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "model": "licensing.license",
+    "pk": 7
+}, {
+    "fields": {
+        "license": "Public domain",
+        "text_url": ""
+    },
+    "model": "licensing.license",
+    "pk": 8
 }]
