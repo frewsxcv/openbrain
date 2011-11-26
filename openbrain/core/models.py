@@ -27,7 +27,7 @@ class Video(models.Model):
     source_url = models.URLField()
     topic = models.ForeignKey('Topic')
     download_url = models.URLField(blank=True)
-    license = models.ForeignKey('License')
+    license = models.ForeignKey('licensing.License')
     next_video = models.OneToOneField('self', blank=True, null=True)
     # practice_url = models.URLField(blank=True)
     # content_time = models.TimeField() #need a better name
@@ -47,19 +47,8 @@ class Video(models.Model):
     def __unicode__(self):
         return "{0}: {1}" .format(self.topic, self.source_url)
 
-
-class License(models.Model):
-    license = models.CharField(max_length=70)
-    text_url = models.URLField(blank=True)
-    # icon?
-    
-    def __unicode__(self):
-        return self.license
-
-'''
-class Rating(models.Model):
-    user
-    video
-    rating1
-    rating2
-'''
+#class Rating(models.Model):
+    #user
+    #video
+    #rating1
+    #rating2
