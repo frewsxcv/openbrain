@@ -1,0 +1,246 @@
+[{
+    "fields": {
+        "name": "Math", 
+        "parent": null
+    }, 
+    "model": "core.category", 
+    "pk": 1
+}, 
+{
+    "fields": {
+        "name": "Calculus", 
+        "parent": 1
+    }, 
+    "model": "core.category", 
+    "pk": 2
+}, 
+{
+    "fields": {
+        "name": "Physics", 
+        "parent": null
+    }, 
+    "model": "core.category", 
+    "pk": 3
+}, 
+{
+    "fields": {
+        "name": "Biology", 
+        "parent": null
+    }, 
+    "model": "core.category", 
+    "pk": 4
+}, 
+{
+    "fields": {
+        "category": 2, 
+        "name": "Solid of revolution", 
+        "prereqs": []
+    }, 
+    "model": "core.topic", 
+    "pk": 1
+}, 
+{
+    "fields": {
+        "category": 2, 
+        "name": "Green's theorem", 
+        "prereqs": []
+    }, 
+    "model": "core.topic", 
+    "pk": 2
+}, 
+{
+    "fields": {
+        "category": 4, 
+        "name": "Natural selection", 
+        "prereqs": []
+    }, 
+    "model": "core.topic", 
+    "pk": 3
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 2, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-1", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 1
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 3, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution---part-2?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 2
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 4, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-3?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 3
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 5, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-4?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 4
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 6, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-5?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 5
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 7, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-6?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 6
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 8, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-7?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 7
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": null, 
+        "source_url": "http://www.khanacademy.org/video/solid-of-revolution--part-8?playlist=Calculus", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 8
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": null, 
+        "source_url": "http://www.khanacademy.org/video/green-s-theorem-example-2?playlist=Calculus", 
+        "topic": 2
+    }, 
+    "model": "core.video", 
+    "pk": 10
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 12, 
+        "source_url": "http://www.khanacademy.org/video/green-s-theorem-proof-part-1?playlist=Calculus", 
+        "topic": 2
+    }, 
+    "model": "core.video", 
+    "pk": 11
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": null, 
+        "source_url": "http://www.khanacademy.org/video/green-s-theorem-proof--part-2?playlist=Calculus", 
+        "topic": 2
+    }, 
+    "model": "core.video", 
+    "pk": 12
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": 10, 
+        "source_url": "http://www.khanacademy.org/video/green-s-theorem-example-1?playlist=Calculus", 
+        "topic": 2
+    }, 
+    "model": "core.video", 
+    "pk": 13
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 2, 
+        "next_video": null, 
+        "source_url": "http://www.youtube.com/watch?v=Wj0oH3ehk18", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 14
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 2, 
+        "next_video": null, 
+        "source_url": "http://www.youtube.com/watch?v=MYXMC7koJyY", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 15
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 2, 
+        "next_video": null, 
+        "source_url": "http://www.youtube.com/watch?v=ksAdC6Z99dE", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 16
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 2, 
+        "next_video": null, 
+        "source_url": "http://www.youtube.com/watch?v=bo8SFHppXZk", 
+        "topic": 1
+    }, 
+    "model": "core.video", 
+    "pk": 17
+}, 
+{
+    "fields": {
+        "download_url": "", 
+        "license": 1, 
+        "next_video": null, 
+        "source_url": "http://www.khanacademy.org/video/introduction-to-evolution-and-natural-selection?playlist=Biology", 
+        "topic": 3
+    }, 
+    "model": "core.video", 
+    "pk": 18
+}]

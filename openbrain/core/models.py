@@ -10,8 +10,8 @@ class Category(models.Model):
 
     def __unicode__(self):
         return self.name
-
-
+ 
+ 
 class Topic(models.Model):
     name = models.CharField(max_length=30)
     prereqs = models.ManyToManyField('Topic', blank=True)

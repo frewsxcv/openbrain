@@ -1,6 +1,8 @@
 from core.models import Category, Topic, Video
 from django.shortcuts import HttpResponse
 
+# this only checks 2 nested categories and only checks the
+# most nested for loop for videos
 
 def list_all(request):
     r = ""
